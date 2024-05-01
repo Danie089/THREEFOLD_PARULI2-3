@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Home Page
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card>
+    
+    <ion-card-header>
+      <ion-card-title>Hi! I'm Daniela Paruli</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button href="tab2.html">Enter my Profile</ion-button>
+      
+    </ion-card-content>
+    <div id="tabs">
+        
+      <ion-tabs>
+        <ion-tab-bar slot="bottom">
+          
+          <ion-tab-button tab="search" routerLink="/home">
+            <ion-icon name="home"></ion-icon>
+            Home
+          </ion-tab-button>
+
+          <ion-tab-button tab="library" (click)="/ashboard">
+            <ion-icon name="library"></ion-icon>
+            Dashboard
+          </ion-tab-button>
+
+        </ion-tab-bar>
+      </ion-tabs>
+    </div>
+  </ion-card>
+  <footer>
+    <p class="all">&copy; All Rights Reserved 2024 </p>
+</footer>
+</ion-content>
